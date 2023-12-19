@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[reg] (
+    [devname ] NVARCHAR (MAX) NULL,
+    [domain]   NVARCHAR (MAX) NULL,
+    [phoneno]  NVARCHAR (MAX) NULL,
+    [dob]      NVARCHAR (MAX) NULL,
+    [email]    NVARCHAR (MAX) NULL,
+    [password] NVARCHAR (MAX) NULL,
+    [sec]  NVARCHAR (MAX) NULL, 
+    [ans] NVARCHAR(MAX) NULL
+);
+
