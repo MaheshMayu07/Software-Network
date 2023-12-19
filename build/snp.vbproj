@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <StartupObject>snp.My.MyApplication</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ImportedNamespaces>resources=False,System.Data=False,System.Drawing=False,System.Resources=False,System.Resources.Extensions=False,System.Resources.Tools=False,System.Windows.Forms=False,System.Windows.Resources=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,snp=True</ImportedNamespaces>
+    <UseWPF>False</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MDIParent1.Designer.vb" />
+    <Compile Remove="MDIParent1.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="MDIParent1.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="iq4invnq.jby~" />
+    <None Remove="tle.vb~RF13e53e4c.TMP" />
+    <None Remove="tle4.resx~RF18733702.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="resources" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Resources" />
+    <Import Include="System.Resources.Extensions" />
+    <Import Include="System.Resources.Tools" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Windows.Resources" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="resources\Resource1.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="resources\Resource1.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

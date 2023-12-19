@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="abstract.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ad1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ad2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ad3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ad4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="admlog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="contact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="dev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="dev1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="dev2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="dev3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="devlog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forgotd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forgotm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forgott.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="man.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="man1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="man2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="man3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="man4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="manlog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tle1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tle4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tlee2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tlee3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tlelog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
